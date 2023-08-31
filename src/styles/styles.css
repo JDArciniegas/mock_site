@@ -1,12 +1,13 @@
 @import 'navbar.css';
+@import 'banner.css';
 
 :root {
   box-sizing: border-box;
   /*  variables  */
   /* colors */
-  --background: #000;
+  --background: #FFF;
   /* navbar */
-  --navbar-text: #FFF;
+  --navbar-text: #000;
 }
 
 body,
