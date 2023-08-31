@@ -1,0 +1,29 @@
+.section {
+  padding: 50px;
+}
+
+.section-head {
+  text-align: center;
+}
+
+.step-container{
+  display: flex;
+  justify-content: space-evenly;
+}
+
+li{
+  border: 1px solid blue;
+  padding: 10%;
+  margin: 20px;
+}
+
+.adoption-icon {
+  height: 50px;
+}
+
+#adoption-process-steps {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-template-rows: auto auto;
+}
+
