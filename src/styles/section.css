@@ -1,5 +1,5 @@
 .section {
-  padding: 50px;
+  padding: 100px;
 }
 
 .section-head {
@@ -23,7 +23,7 @@
   align-items: center;
   min-width: 20%;
   height: 100%;
-  background-color: rgba(200, 200, 200, 0.);
+  background-color: var(--section-border-light);
   padding: 5%;
 }
 
@@ -34,7 +34,7 @@
   padding: 0 100px;
   height: 100%;
   margin: 0;
-  border-left: 3px solid rgba(243, 117, 43, 0.6);
+  border-left: 3px solid var(--section-border);
   background-color: rgba(0, 0, 0, 0.1);
   border-radius: 0 10px 10px 0;
 }
@@ -54,5 +54,17 @@
 
 #adoption-process-steps {
   margin: 0 auto;
-  width: 60%;
+  width: 80%;
 }
+
+#about{
+  background-color: var(--section-border-light);
+  color: var(--section-border);
+  height: 100vh;
+}
+
+#contact{
+  height: 100vh;
+}
+
+
