@@ -6,6 +6,7 @@ bannerHeader.setAttribute('id', 'message')
 bannerHeader.innerText = 'Adopt Today'
 
 bannerContainer.appendChild(bannerHeader);
+
 const Banner = () => {
   return bannerContainer;
 }
