@@ -13,16 +13,16 @@ const NavListItem = () => {
   return navListItem;
 };
 
-const NavLink = (href, text) => {
+const NavLink = (name, text) => {
   const link = document.createElement("a");
-  link.setAttribute(href, `#${href}`);
+  link.setAttribute('href', `#${name}`);
   link.innerText = text;
   return link;
 };
 
-const listItemLink = (href, text) => {
+const listItemLink = (name, text) => {
   let listItem = NavListItem();
-  listItem.append(NavLink(href, text));
+  listItem.append(NavLink(name, text));
   return listItem;
 };
 
