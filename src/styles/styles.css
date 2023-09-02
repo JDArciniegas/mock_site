@@ -1,14 +1,20 @@
 @import 'navbar.css';
 @import 'banner.css';
 @import 'section.css';
+@import 'form.css';
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap');
 
 :root {
   box-sizing: border-box;
   /*  variables  */
   /* colors */
-  --background: #FFF;
+  /* --background: rgba(243, 117, 43, 0.2); */
   /* navbar */
-  --navbar-text: #FFF;
+  --navbar-text: #000;
+   /* fonts */
+  --main-font: 'Raleway',
+    sans-serif;
 }
 
 body,
@@ -20,6 +26,6 @@ html {
 }
 
 #content {
-  height: 100%;
+  font-family: var(--main-font);
   background-color: var(--background);
 }

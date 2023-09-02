@@ -1,0 +1,74 @@
+.section {
+  padding: 50px;
+}
+
+.section-head {
+  text-align: center;
+}
+
+.step-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* border: 1px solid black; */
+  height: 200px;
+  margin-bottom: 50px;
+  border-radius: 10px;
+}
+
+.step-container:nth-child(even) {
+  box-shadow: -4px 2px 12px rgba(100, 100, 100, 0.8);
+}
+
+.step-container:nth-child(odd) {
+  box-shadow: -4px 2px 10px rgba(100, 100, 100, 0.8);
+}
+
+.step-container li {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 40%;
+  height: 100%;
+  background-color: rgba(200, 200, 200, 0.);
+  padding: 5%;
+}
+
+
+.steps-par {
+  display: flex;
+  align-items: center;
+  padding: 0 100px;
+  height: 100%;
+  margin: 0;
+}
+
+.steps-par:nth-child(even) {
+  border-left: 3px solid rgba(243, 117, 43, 0.6);
+  background-color: rgba(0, 0, 0, 0.1);
+  border-radius: 0 10px 10px 0;
+}
+
+.steps-par:nth-child(odd) {
+  border-right: 3px solid  rgba(243, 117, 43, 0.6);
+  background-color: rgba(0, 0, 0, 0.1);
+  border-radius: 10px 0 0 10px;
+}
+
+.adoption-tag-line {
+  text-align: center;
+}
+
+.adoption-icon {
+  width: 30%;
+}
+
+.section-p {
+  text-align: center;
+}
+
+#adoption-process-steps {
+  margin: 0 auto;
+  width: 60%;
+}

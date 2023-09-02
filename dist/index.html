@@ -5,74 +5,147 @@
   <script src="https://kit.fontawesome.com/9cfd25da73.js" crossorigin="anonymous"></script>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
   <link rel="stylesheet" href="../src/styles/styles.css">
   <title>Document</title>
 </head>
 
 <body>
   <div id="content">
+    <nav id="navbar">
+      <ul class="nav-section">
+        <li class="nav-item"><a href="#">Loving Pets</a></li>
+      </ul>
+      <ul class="nav-section">
+        <li class="nav-item"><a href="#adoption-process">Adoption Process</a></li>
+        <li class="nav-item"><a href="#about">About us</a></li>
+        <li class="nav-item"><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
     <div id="banner">
-      <nav id="navbar">
-        <ul class="nav-section">
-          <li class="nav-item"><a href="#">Adoptable Pets</a></li>
-        </ul>
-        <ul class="nav-section">
-          <li class="nav-item"><a href="#">Adoption Process</a></li>
-          <li class="nav-item"><a href="#">About us</a></li>
-          <li class="nav-item"><a href="#">Contact</a></li>
-        </ul>
-      </nav>
-      <div id="message">
-        <h1>Adopt Today</h1>
-      </div>
+    </div>
+    <div id="message">
+      <h1>Adopt Today</h1>
     </div>
     <div class="section" id="adoption-process">
       <h1 class="section-head">
         How to Adopt
       </h1>
       <ol id="adoption-process-steps">
-        <li>
-          <img class="adoption-icon" src="./images/search.png" alt="search">
-          <p class="adoption-tag-line">Choose your Pet</p>
-        </li>
+        <div class="step-container">
+          <li>
+            <img class="adoption-icon" src="./images/search.png" alt="search">
+            <p class="adoption-tag-line">Choose your Pet</p>
+          </li>
+          <p class="steps-par">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque nam ducimus, ipsam alias
+            molestiae dicta ea
+            recusandae, nemo amet laboriosam tenetur vel dolores, odit minima id temporibus dolor labore delectus.</p>
+        </div>
+        <div class="step-container">
+          <p class="steps-par">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque nam ducimus, ipsam alias
+            molestiae dicta ea
+            recusandae, nemo amet laboriosam tenetur vel dolores, odit minima id temporibus dolor labore delectus.</p>
+          <li>
+            <img class="adoption-icon" src="./images/submit.png" alt="search">
+            <p class="adoption-tag-line">Submit Adoption Application</p>
+          </li>
+        </div>
 
-        <li>
+        <div class="step-container">
+          <li>
+            <img class="adoption-icon" src="./images/call.png" alt="search">
+            <p class="adoption-tag-line">Phone Consultation</p>
+          </li>
+          <p class="steps-par">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque nam ducimus, ipsam alias
+            molestiae dicta ea
+            recusandae, nemo amet laboriosam tenetur vel dolores, odit minima id temporibus dolor labore delectus.</p>
+        </div>
 
-          <img class="adoption-icon" src="./images/submit.png" alt="search">
-          <p class="adoption-tag-line">Submit Adoption Application</p>
-        </li>
-        <li>
+        <div class="step-container">
+          <p class="steps-par">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque nam ducimus, ipsam alias
+            molestiae dicta ea
+            recusandae, nemo amet laboriosam tenetur vel dolores, odit minima id temporibus dolor labore delectus.</p>
+          <li>
+            <img class="adoption-icon" src="./images/meet.png" alt="search">
+            <p class="adoption-tag-line">Meet and Greet</p>
+          </li>
+        </div>
 
-          <img class="adoption-icon" src="./images/call.png" alt="search">
-          <p class="adoption-tag-line">Phone Consultation</p>
-        </li>
-        <li>
+        <div class="step-container">
+          <li>
+            <img class="adoption-icon" src="./images/finish.png" alt="search">
+            <p class="adoption-tag-line">Finalize Process</p>
+          </li>
+          <p class="steps-par">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque nam ducimus, ipsam alias
+            molestiae dicta ea
+            recusandae, nemo amet laboriosam tenetur vel dolores, odit minima id temporibus dolor labore delectus.</p>
+        </div>
 
-          <img class="adoption-icon" src="./images/meet.png" alt="search">
-          <p class="adoption-tag-line">Meet and Greet</p>
-        </li>
-        <li>
+        <div class="step-container">
+          <p class="steps-par">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque nam ducimus, ipsam alias
+            molestiae dicta ea
+            recusandae, nemo amet laboriosam tenetur vel dolores, odit minima id temporibus dolor labore delectus.</p>
+          <li>
+            <img class="adoption-icon" src="./images/home.png" alt="search">
+            <p class="adoption-tag-line">Bring them home</p>
+          </li>
+        </div>
 
-          <img class="adoption-icon" src="./images/finish.png" alt="search">
-          <p class="adoption-tag-line">Finalize Process</p>
-        </li>
-        <li>
-
-          <img class="adoption-icon" src="./images/home.png" alt="search">
-          <p class="adoption-tag-line">Bring them home</p>
-        </li>
       </ol>
     </div>
-    <!-- <div class="section">
-  <h1 class="section-head">
-    Our Pets
-  </h1>
-</div>
-<div class="section">
-  <h1 class="section-head">
-    About us
-  </h1>
-</div> -->
+    <div class="section" id="about">
+      <h1 class="section-head">
+        About us
+      </h1>
+      <p>
+        Welcome to Our Precious Paws Adoption Agency, where we believe in the power of love to transform lives. Our
+        mission is
+        to connect loving families with the perfect furry companions, creating lifelong bonds filled with joy,
+        companionship,
+        and endless tail wags.
+      </p>
+
+        <p>
+          At Our Precious Paws, we understand that adopting a pet is a life-changing decision. That's why we offer
+          personalized
+          matchmaking services to ensure that every adoption is a perfect fit for both the pet and the family. We provide
+          comprehensive support to our adopters, from counseling on pet care and training to post-adoption resources.
+
+        </p>
+        <p>We are more than just an adoption agency; we are a community of animal advocates, caregivers, and pet
+        enthusiasts united
+        by a shared goal: to make the world a better place, one adoption at a time. Join us in our mission to give every
+        animal
+        a chance to experience the love and care they deserve. Together, we can write heartwarming tales of happiness
+        and hope,
+        one pawprint at a time.</p>
+
+    </div>
+
+    <div id="contact">
+      <h1 class="section-head">
+        Contact
+      </h1>
+      <form action="#">
+        <div class="mb-3">
+          <label for="exampleFormControlInput1" class="form-label">Email address</label>
+          <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+        </div>
+        <div class="mb-3">
+          <label for="exampleFormControlTextarea1" class="form-label">Example textarea</label>
+          <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary">Submit</button>
+      </form>
+
+    </div>
+    <footer>
+      <h3>Loving Pets</h3>
+      <p>mock@email.com</p>
+      <p>555-123-4567</p>
+      <p>1 fake address, somewhere, SW</p>
+    </footer>
   </div>
   <script src="main.js"></script>
 </body>
